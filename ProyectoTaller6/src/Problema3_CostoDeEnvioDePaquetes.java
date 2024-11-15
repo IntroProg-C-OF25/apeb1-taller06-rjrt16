@@ -34,3 +34,8 @@ public class Problema3_CostoDeEnvioDePaquetes {
 
     }
 }
+/* run:
+Dame el peso del producto: 3
+Dame la region para el envio: local
+Tarifa por compra = 5.0
+*/

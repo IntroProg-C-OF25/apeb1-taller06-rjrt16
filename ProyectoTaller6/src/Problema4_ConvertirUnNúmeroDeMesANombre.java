@@ -56,3 +56,7 @@ public class Problema4_ConvertirUnNúmeroDeMesANombre {
         }
     }
 }
+/*run:
+Deme un numero del 1 al 12: 4
+Abril
+*/

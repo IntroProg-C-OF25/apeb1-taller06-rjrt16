@@ -24,20 +24,27 @@ public class Problema2_ClasificaciónDeUnTriángulo {
             if ((lado1 != lado2) && (lado1 == lado3)) {
                 System.out.print("El triangulo es isoceles");
             } else {
-            }
-            if ((lado1 == lado2) && (lado1 != lado3)) {
-                System.out.print("El triangulo es isoceles");
-            } else {
-                if (sumaLados != lado3) {
-                    System.out.print("No es triangulo");
-                } else {
-                    if ((lado1 != lado2) && (lado1 != lado3)) {
-                        System.out.print("El triangulo es escaleno");
-                    } else {
 
+                if ((lado1 == lado2) && (lado1 != lado3)) {
+                    System.out.print("El triangulo es isoceles");
+                } else {
+                    if (sumaLados != lado3) {
+                        System.out.print("No es triangulo");
+                    } else {
+                        if ((lado1 != lado2) && (lado1 != lado3)) {
+                            System.out.print("El triangulo es escaleno");
+                        } else {
+
+                        }
                     }
                 }
             }
         }
     }
 }
+/*run:
+Dame el lado 1 del trinagulo: 2
+Dame el lado 2 del triangulo: 3
+Dame el lado 3 del triangulo: 4
+No es triangulo
+*/
